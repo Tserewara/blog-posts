@@ -1,5 +1,6 @@
 # My third post
 
+```py
 import markdown
 from flask import Flask
 import markdown.extensions.fenced_code
@@ -10,18 +11,6 @@ from html_generator import generate_html
 
 app = Flask(__name__)
 
-add_styles = '''
-pre {
-   
-    padding: 1rem;
-    border-radius: 2px;
-    box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
-    width: fit-content;
-    background-color: #353846;
-    }
-    '''
-
-```py
 @app.route("/<path:path_to_article>")
 def index(path_to_article):
     article = get_article_from_github(path_to_article)
