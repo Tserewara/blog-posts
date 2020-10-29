@@ -21,6 +21,7 @@ pre {
     }
     '''
 
+```py
 @app.route("/<path:path_to_article>")
 def index(path_to_article):
     article = get_article_from_github(path_to_article)
@@ -41,3 +42,5 @@ def index(path_to_article):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+```
