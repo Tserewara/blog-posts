@@ -1,1 +1,2 @@
-# Xavante ĩ?ẽ uptabi
+# Xavante ĩwẽ uptabi
+![Imagem](paradise.jpg)
