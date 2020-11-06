@@ -1,22 +1,27 @@
 [
     {
         "post_title": "post 1",
-        "link": "http://localhost:5000/post-1"
+        "link": "http://localhost:5000/post-1",
+        "description": "A simple post"
     },
     {
         "post_title": "post 2",
-        "link": "http://localhost:5000/post-2"
+        "link": "http://localhost:5000/post-2",
+        "description": "A simple post"
     },
     {
         "post_title": "post 3",
-        "link": "http://localhost:5000/post-3"
+        "link": "http://localhost:5000/post-3",
+        "description": "A simple post"
     },
     {
         "post_title": "post 4",
-        "link": "http://localhost:5000/post-4"
+        "link": "http://localhost:5000/post-4",
+        "description": "A simple post"
     },
     {
         "post_title": "post 5",
-        "link": "http://localhost:5000/post-5"
+        "link": "http://localhost:5000/post-5",
+        "description": "A simple post"
     }
 ]
