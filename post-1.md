@@ -1,4 +1,4 @@
-# My first post
+# The first post we never forget
 
 ```py
 def post():
