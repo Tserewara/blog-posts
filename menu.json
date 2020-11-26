@@ -1,32 +1,5 @@
-[
-    {
-        "post_title": "The first post we never forget",
-        "link": "/post-1",
-        "description": "A simple post"
-    },
-    {
-        "post_title": "post 2",
-        "link": "/post-2",
-        "description": "A simple post"
-    },
-    {
-        "post_title": "post 3",
-        "link": "/post-3",
-        "description": "A simple post"
-    },
-    {
-        "post_title": "post 4",
-        "link": "/post-4",
-        "description": "A simple post"
-    },
-    {
-        "post_title": "post 5",
-        "link": "/post-5",
-        "description": "A simple post"
-    },
-    {
-        "post_title": "post 6",
-        "link": "/post-6",
-        "description": "How does relationships work in OOP? Discover right now."
-    }
-]
+[{
+    "post_title": "An Introduction to Object-oriented programming in Python",
+    "link": "/introduction-oo-python",
+    "description": "Programming can be a very pleasant activity. But, once we start building a more complex system, we can become very frustrated. OOP may be the solution."
+}]
