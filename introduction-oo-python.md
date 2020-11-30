@@ -41,7 +41,7 @@ class CanOfBeans:
         return print(self.content)
 ```
 
-You may be thinking that this approach is longer and more complex. It's true. But the point is: we don't have to use OO in everything. We must understand when objects are needed and when they are not. As we considered earlier in this article, when we need to tackle the complexity of a system, OO may be a better choice over the typical prodecural approach.
+You may be thinking that this approach is longer and more complex. It's true. But the point is: we don't have to use OO in everything. We must understand when objects are needed and when they are not. As we considered earlier in this article, when we need to tackle the complexity of a system, OO may be a better choice over the typical procedural approach.
 
 ## How do we identify objects and their relationships?
 
@@ -51,9 +51,11 @@ It is easy to point the objects in a restaurant because they are physical things
 
 Before we start building a house, we need to gather some requirements. How many rooms will there be in the house? How big must it be? Does it need a garage? The same happens (at least it should) before building software. We need to gather the requirements of the system. This way, we know exactly what we have to build. To do so, we need to speak to the person who asked us to build the system, or our client. Object-oriented analysis is the process of trying to figure out the objects and relatioship between them based on a set of requirements. After this stage, we should have a set of requirements of what the system should do. For example, our client may asks us to build an online system to manage orders of a restaurant. Users of the system need to be able to:
 
-* Order food
-* Reserve a table
-* Pay the bill
+```note
+- Order food
+- Reserve a table
+- Pay the bill
+```
 
 **Food**, **table** and **bill** are some objects of our system, while *reserve table* and *pay the bill* are behaviors. It is not so hard to do this, as long as we ask our client (who needs the software) the right questions. Not always the clients know exactly what they need. It's our job to help. It is also very important to point that we often need to change decisions made in this stage as we understand better the needs of the client. So, we don't have to worry too much with coming up with all the requirements at once. They will always change and we must be prepared to deal with this.
 
