@@ -137,7 +137,7 @@ if __name__ == '__main__':
 
 ### Aggregation
 
-Aggregation is a more specific kind of association, where an object is part of another. To illustrate that, now let's design a simple ingredient list feature for the recipes of our restaurant. We will need two classes: `Recipe` and `Ingredient`.
+Aggregation is a more specific kind of association, where an object is part of another.  To illustrate that, now let's design a simple ingredient list feature for the recipes of our restaurant. We will need two classes: `Recipe` and `Ingredient`.
 
 ```python
 class Recipe:
@@ -268,3 +268,55 @@ As we saw, in composition, the relationship between objects is stronger since th
 
 ### Inheritance
 
+Inheritance is the most famous and overused relationship in OO. In this relationship, one class inherits data and behaviors from another. The class that provides them is called parent and the one that inherits is called child. This relationship is also referred to as an *is-a* relationship, because one class is of the type of the other. Let's use our restaurant one more time to illustrate inheritance. Imagine we have to design a delivery system for our restaurant. We can delivery a lot of dishes as well as other items as sodas, wines etc. We have to represent all the kinds of products the restaurant sells with a class. Let's call it `Product`. Also, imagine we have to add a method in the product to show how much of it there still is in stock.
+
+```python
+class Product:
+    def __init__(self, name, price, stock)
+    	self.id = id
+        self.name = name
+        self.price = price
+        self.stock = stock
+    
+    def stock_qty(self):
+        self.stock.show_qty(self.id)        
+```
+
+In our restaurant, there is a lot of products. So, we can inherit from `Product` to create them.
+
+```python
+class Product:
+    def __init__(self, name, price, stock)
+    	self.id = id
+        self.name = name
+        self.price = price
+        self.stock = stock
+    
+    def stock_qty(self):
+        self.stock.show_qty(self.id)
+
+class Pizza(Product):
+    pass
+
+class Wine(Product):
+    pass
+
+class Lasagna(Product):
+    pass
+```
+
+Note we only need to pass `Product` to the new class to inherit from it. We don't need to implement anything. We already have all the data and behavior of `Product` in `Pizza`, `Wine` and `Lasagna`. Inheritance is a very powerful technique. Even though, many people tend to overuse it since it allows to share functionalities between classes. That's not the best reason to use inheritance. More about it in a future article (if you are really curious, you can read about **polymorphism** and see what it has to do with inheritance).
+
+## Summary
+
+- Association - a class uses another, but it doesn't needs it to exist
+
+- Aggregation - a class needs another to work but not to exist
+
+- Composition - a class is part of another and when the container class is deleted, its composing classes also are
+
+- Inheritance - a class is another, since it inherits from a parent class
+
+  
+
+It takes time and effort to get the hang of OO. So, don't feel discouraged if you still don't understand it well. Keep learning and trying to apply it in your projects and things will become more and more clear. 
