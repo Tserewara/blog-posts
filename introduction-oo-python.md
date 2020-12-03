@@ -67,7 +67,7 @@ Before we start building a house, we need to gather some requirements. How many 
 - Pay the bill
 ```
 
-`Food`, `table` and `bill` are some objects of our system, while `reserve table `and `pay the bill` are behaviors. It is not so hard to do this, as long as we ask our client (who needs the software) the right questions. Not always the clients know exactly what they need. It's our job to help. It is also very important to point that we often need to change decisions made in this stage as we understand better the needs of the client. So, we don't have to worry too much about coming up with all the requirements at once. They will always change and we must be prepared to deal with this.
+`Food`, `table` and `bill` are some objects of our system, while `reserve table` and `pay the bill` are behaviors. It is not so hard to do this, as long as we ask our client (who needs the software) the right questions. Not always the clients know exactly what they need. It's our job to help. It is also very important to point that we often need to change decisions made in this stage as we understand better the needs of the client. So, we don't have to worry too much about coming up with all the requirements at once. They will always change and we must be prepared to deal with this.
 
 ### Object-oriented design
 
